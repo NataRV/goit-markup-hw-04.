@@ -483,6 +483,9 @@ ul {
     align-items: center;
     fill: var(--white-color);
 }
+.footer-container{
+display: flex;
+}
 /* ========== End Footer========== */
 
 /* ========== Portfolio ========== */
