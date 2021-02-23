@@ -98,6 +98,18 @@ p {
   padding-bottom: 25px;
   margin-right: 93px;
 }
+.contacts-icon-mail {
+  margin-right: 10px;
+  fill: currentColor;
+  width: 16px;
+  height: 12px;
+}
+.contacts-icon-tel{
+  margin-right: 10px;
+  fill: currentColor;
+  width: 10px;
+  height: 16px;
+}
 /* ========== END HEADER ========== */
 
 /* ========== COMPONENTS ========== */
