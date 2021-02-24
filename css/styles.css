@@ -149,6 +149,8 @@ ul {
 
 .email-link,
 .tel-link {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -390,7 +392,7 @@ ul {
 
 /* ========== Clients========== */
 .clients .container {
-    padding: 94px 0;
+    padding: 94px 15px;
 }
 .clients-title{
   display: block;
@@ -426,7 +428,7 @@ ul {
 .link-clients:hover{
   border-color: var(--accent-color);
 }
-.icon-clients:hover{
+.link-clients:hover{
   fill: var(--accent-color);
 }
 /* ========== End Clients========== */
@@ -458,10 +460,6 @@ ul {
 }
 .contact-information-list-item:not(:last-child) {
   margin-bottom: 9px;
-}
-.footer-contacts{
-    padding-right: 70px;
-    align-items: baseline;
 }
 .join-us{
   align-items: baseline;
@@ -497,9 +495,14 @@ ul {
 }
 .footer-container{
 display: flex;
+padding-right: 70px;
+align-items: baseline;
 }
 .join-us-link:hover{
   background-color: var(--accent-color);
+}
+.footer-contacts{
+padding-right: 70px;
 }
 /* ========== End Footer========== */
 
@@ -560,6 +563,14 @@ img {
   height: auto;
 }
 
+.portfolio-item-link{
+  display: block;
+}
+
+.portfolio-item-link:hover,
+.portfolio-item-link:focus{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 /* ========== END Portfolio ========== */
 
 /* ========== second type to do Portfolio ========== */
